@@ -1,0 +1,26 @@
+{
+  "name": "pokeapi-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bin/dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-lambda": "^1.1.7",
+    "camelcase": "^4.1.0",
+    "camelize": "^1.0.0",
+    "graphql": "^0.11.7",
+    "graphql-relay": "^0.5.3",
+    "graphql-tools": "^2.5.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "apollo-server-express": "^1.1.7",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
